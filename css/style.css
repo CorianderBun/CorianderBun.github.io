@@ -400,7 +400,7 @@ body abbr {
 body ul,
 body ol,
 body dl {
-  line-height: 1.725;
+  line-height: 2;
 }
 body ul ul,
 body ol ul,
@@ -419,7 +419,7 @@ body table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 12px;
+  font-size: 18px;
   overflow: auto;
   display: block;
 }
@@ -428,7 +428,7 @@ body th {
   border-bottom: 1px dashed #908d8d;
   color: #eee;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 19px;
 }
 body td {
   padding: 0 8px;
@@ -481,9 +481,9 @@ body {
   background-color: #1d1f21;
   color: #c9cacc;
   font-weight: 400;
-  font-size: 14px;
-  font-family: "Menlo", "Meslo LG", monospace;
-  line-height: 1.725;
+  font-size: 20px;
+  font-family: "Menlo", "Scorce Code pro", monospace;
+  line-height: 2;
   text-rendering: geometricPrecision;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -615,10 +615,10 @@ body {
   display: inline-block;
   float: left;
   margin-right: 20px;
-  width: 50px;
-  height: 50px;
+  width: 51px;
+  height: 51.5px;
   border-radius: 5px;
-  background-size: 50px 50px;
+  background-size: 51px 51.5px;
   background-repeat: no-repeat;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -671,7 +671,7 @@ body {
   #header #title {
     display: table;
     margin-right: 5rem;
-    min-height: 50px;
+    min-height: 51.5px;
   }
   #header #title h1 {
     display: table-cell;
@@ -701,7 +701,7 @@ body {
   }
   #header #nav li:not(:first-child) {
     padding-top: 1rem;
-    padding-left: 70px;
+    padding-left: 71px;
     font-size: 1rem;
   }
 }
@@ -1415,9 +1415,9 @@ article .content .caption {
   color: #1d1f21;
   font-display: swap;
   font-weight: 400;
-  font-size: 11.200000000000001px;
-  font-family: "Menlo", "Meslo LG", monospace;
-  line-height: 1.725;
+  font-size: 16px;
+  font-family: "Menlo", "Scorce Code pro", monospace;
+  line-height: 2;
   text-rendering: geometricPrecision;
   text-align: center;
   word-wrap: break-word;
@@ -1586,7 +1586,7 @@ pre {
   border: 1px dotted #908d8d;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Menlo", "Scorce Code pro", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1607,7 +1607,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #212326;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Menlo", "Scorce Code pro", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
